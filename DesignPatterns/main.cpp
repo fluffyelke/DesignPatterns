@@ -21,7 +21,7 @@ void solidPatterns() {
 //    Solid::genericWayExample();
 //    Solid::testProcess();
     
-    //Dependancy Inversion Examples
+//Dependancy Inversion Examples
 //    Solid::testRelations();
 }
 
