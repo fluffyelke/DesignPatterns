@@ -1,0 +1,3 @@
+the class has to be responsible for only 1 thing.
+This is the most simple explanation of the Single Responsibility Principle.
+

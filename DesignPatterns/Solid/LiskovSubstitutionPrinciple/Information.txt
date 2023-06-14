@@ -1,0 +1,2 @@
+Liskov Substitution principle.
+Subtype should be immediately substitutable with their base types

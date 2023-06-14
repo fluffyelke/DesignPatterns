@@ -1,0 +1,2 @@
+Open-Closed principle
+Our design must be open for extensions, but closed for modification.

@@ -1,0 +1,3 @@
+Interface Segregation Principle.
+Do not create interfaces thats are to large
+avoid stuffin to much into a single interface,
