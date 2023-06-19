@@ -1,0 +1,15 @@
+Factories
+Factory method and Abstract Factory
+    Motivation
+        - Object creation logic becomes too convoluted
+        - Constructor is not descriptive
+            a) Name mandated by name of containing type.
+            b) Cannot overload with sets of arguments with different names.
+            c) Can turn into 'optional parameter Hell'
+        - Object Creation(non-piecewise unlike Builder Pattern) can be outsourced to:
+            a) A separate function (Factory Method).
+            b) That may exist in separate class (Factory).
+            c) Can create hierarchy of factories with Abstract Factory.
+
+
+Factory: A component responsibly solely for the wholesale (not piecewise) creation of objects.

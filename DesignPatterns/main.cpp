@@ -19,6 +19,11 @@
 #include "Creational/Builder/GroovyStyleBuilder/GroovyStyleBuilder.h"
 #include "Creational/Builder/BuilderFacets/PersonExample.h"
 #include "Creational/Builder/Excercise/BuilderExcercise.h"
+#include "Creational/Factory/FactoryMethod/FactoryMethod.h"
+#include "Creational/Factory/Factory/Factory.h"
+#include "Creational/Factory/InnerFactory/InnerFactory.h"
+#include "Creational/Factory/AbstractFactory/AbstractFactoryMgr.h"
+#include "Creational/Factory/Excercises/Person.h"
 
 
 void testReverseSqrt() {
@@ -44,11 +49,20 @@ void builderPattern() {
 //    GroovyBuilder::htmlExample();
 //    BuilderFacet::personBuilderTest();
     
-    BuilderEx::testExcercise();
+//    BuilderEx::testExcercise();
+}
+
+void factoryPattern() {
+//    FactoryMethod::testFactoryMethod();
+//    Factory::testFactoryMethod();
+//    InnerFactory::testFactoryMethod();
+//    AbstractFactory::runExample();
+//    FactoryEx::runFactoryEx();
 }
 
 void creationalPatterns() {
-    builderPattern();
+//    builderPattern();
+//    factoryPattern();
 }
 
 int main(int argc, char** argv) {
