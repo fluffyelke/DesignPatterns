@@ -21,9 +21,6 @@ namespace AbstractFactory {
         }
         return drink;
     }
-    
-    
-    
     void runExample() {
         auto myDrink = make_drink("tea");
         //Instead of using if - statements to create our objects, we can use 

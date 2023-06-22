@@ -24,6 +24,12 @@
 #include "Creational/Factory/InnerFactory/InnerFactory.h"
 #include "Creational/Factory/AbstractFactory/AbstractFactoryMgr.h"
 #include "Creational/Factory/Excercises/Person.h"
+#include "Creational/Prototype/RecordKeeping/RecordsKeeping.h"
+#include "Creational/Prototype/Prototype/Prototype.h"
+#include "Creational/Prototype/PrototypeFactory/PrototypeFactory.h"
+#include "Creational/Factory/AbstractFactory/AbstractFactoryModel/RunFactory.h"
+#include "Creational/Prototype/PrototypeViaSerialization/PrototypeSerialization.h"
+#include "Creational/Prototype/PrototypeEx/PrototypeEx.h"
 
 
 void testReverseSqrt() {
@@ -58,15 +64,26 @@ void factoryPattern() {
 //    InnerFactory::testFactoryMethod();
 //    AbstractFactory::runExample();
 //    FactoryEx::runFactoryEx();
+//    AbstractFactory::runMyBaseFactoryProgram();
+}
+
+void prototypePattern() {
+//    PrototypeProblem::contactExample();
+//    Prototype::contactExample();
+//    PrototypeFactory::contactExample();
+//    PrototypeSerialization::contactExample();
+//    DeepCopy::deepCopyExercise();
 }
 
 void creationalPatterns() {
 //    builderPattern();
 //    factoryPattern();
+//    prototypePattern();
 }
 
 int main(int argc, char** argv) {
 
+//    testInheritance();
     creationalPatterns();
     
     return 0;

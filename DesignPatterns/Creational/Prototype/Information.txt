@@ -1,0 +1,15 @@
+Prototype pattern 
+When it's easier to copy existing object, to fully initialize a new one.
+    
+    Motivation: 
+        - Complicated objects, (e.g. cars) are not design from scratch.
+            A) They reiterate existing designs.  (make them better)
+        - Prototype is an existing(partially of fully constructed) design.
+        - We make a copy(clone) the prototype and customize it.
+            A) Requires a something called "deep copy" support
+                - Make a copy recursively, and doing so we must be sure that this object, didnt 
+                - change the object we just copy from.
+        - We make cloning convenient  (e.g. via a Factory)
+
+
+Prototype - A partially or fully initialized object that you copy(clone) and make use of.
