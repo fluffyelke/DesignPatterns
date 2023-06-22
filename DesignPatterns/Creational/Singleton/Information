@@ -1,0 +1,26 @@
+Singleton
+    A design pattern everyone loves to hate... but is it really that bad.
+
+    "When discussing which patterns to drop, we found that we still love them all.
+     (Not really - I'm in favor of dropping Singleton. Its use is almost always a design smell.)" - Erich Gamma.
+
+Motivation for using Singleton
+    - For some components it only makes sens to have one instance in the system
+        a)Database repository.
+        b)Object Factory.
+    - E.g., the constructor call is expensive
+        a)We only do it once.
+        b)We provide everyone with the same instance.
+    - Want to prevent anyone creating additional copies.
+    - Need to take care of lazy instantiation and thread safety
+
+Singleton: A component which is instantiated only once.
+
+Summary:
+    - Making a 'safe' singleton is easy
+        a) Hide or delete the type's constructor, copy constructor, and copy assignment operators.
+        b) Create a static method that returns a reference to a static member
+        c) Guaranteed to be thread-safe since C++11
+    - Types with 'hard' dependencies on singletons are difficult to test
+        a) Cannot decouple the singleton and supply a fake object
+    - Instead of directly using a singleton, consider depending on an abstraction (e.g., an interface)

@@ -13,3 +13,11 @@ When it's easier to copy existing object, to fully initialize a new one.
 
 
 Prototype - A partially or fully initialized object that you copy(clone) and make use of.
+
+
+Summary
+    -To implement a prototype, partially construct an object and store it somewhere.
+    -Clone the prototype
+        a)Implement your own deep copy, functionallity(make your own deep copy functionallity or copy constructor); or
+        b) Serialize and Deserialize.
+    -Customize the resulting instance.

@@ -30,6 +30,10 @@
 #include "Creational/Factory/AbstractFactory/AbstractFactoryModel/RunFactory.h"
 #include "Creational/Prototype/PrototypeViaSerialization/PrototypeSerialization.h"
 #include "Creational/Prototype/PrototypeEx/PrototypeEx.h"
+#include "Creational/Singleton/Singleton/Singleton.h"
+#include "Creational/Singleton/TestabilityIssues/SingletonIssues.h"
+#include "Creational/Singleton/SingletonInDependancyInjection/SingletonInDI.h"
+#include "Creational/Singleton/Multiton/Multiton.h"
 
 
 void testReverseSqrt() {
@@ -75,16 +79,25 @@ void prototypePattern() {
 //    DeepCopy::deepCopyExercise();
 }
 
+void singletonPattern() {
+//    Singleton::testSingleton();
+//    SingletonIssues::testSingleton();
+//    SingletonInDI::testSingleton();
+    Multiton::testMultiton();
+}
+
 void creationalPatterns() {
 //    builderPattern();
 //    factoryPattern();
 //    prototypePattern();
+    singletonPattern();
 }
 
 int main(int argc, char** argv) {
 
 //    testInheritance();
     creationalPatterns();
+    
     
     return 0;
 }
